@@ -16,6 +16,9 @@ class App extends Component {
               src={require("./logo.png")}
               className="navbar-brand image navbar-left"
             />
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
             <ul className="navbar-nav">
               <li>
                 <Link to={"/"} className="nav-link">
