@@ -39,7 +39,7 @@ class App extends Component {
                 </Link>
               </li>
             </ul>
-<\div>
+</div>
           </nav>
           <hr />
           <Switch>
