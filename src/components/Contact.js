@@ -7,7 +7,7 @@ class Contact extends Component {
     return (
       <div className="container">
         <h2>Contact for more information</h2>
-        <form name="contact" method="POST" data-netlify="true">
+        <form name="contact" method="POST">
           <div className="form-group">
             <label for="name">Your Name:</label>
             <input type="text" class="form-control" name="name" id="name" />
