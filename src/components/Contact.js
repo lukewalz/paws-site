@@ -8,6 +8,7 @@ class Contact extends Component {
       <div className="container">
         <h2>Contact for more information</h2>
         <form name="contact" method="POST">
+          <input type="hidden" name="form-name" value="contact" />
           <div className="form-group">
             <label for="name">Your Name:</label>
             <input type="text" class="form-control" name="name" id="name" />
