@@ -14,9 +14,29 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color:blue;
+  color: blue;
 }
 
 .App-link {
   color: #09d3ac;
+}
+
+.image {
+  height: 100px
+}
+
+.nav-link {
+  font-size: 2em;
+  margin: 1em;
+}
+
+p {
+  font-size: 2em;
+}
+
+.hero-image {
+  max-width: 100%;
+  opacity: .2;
+  position: absolute;
+  max-width: 1140px;
 }
