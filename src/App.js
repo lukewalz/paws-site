@@ -16,12 +16,12 @@ class App extends Component {
               src={require("./logo.png")}
               className="navbar-brand image navbar-left"
             />
-<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
   </button>
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<div className="collapse navbar-collapse" id="navbarSupportedContent">
    
-            <ul className="navbar-nav">
+            <ul className="navbar-nav mr-auto" >
               <li>
                 <Link to={"/"} className="nav-link">
                   {" "}
