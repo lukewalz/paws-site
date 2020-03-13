@@ -7,16 +7,10 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      <div className="container">
-        <div className="jumbotron jumbotron-fluid">
-<div className="container">
-          <h1 className="display-4">Paws Compliance</h1>
-          <p className="lead">
-            {" "}
-            The foremost compliance experts and essential reminder; creating
-            rewarding habits leading to good health and good fortune for all
-          </p>
-</div>
+      <div>
+<div className="jumbotron">
+        <img src={require('../assets/Dog getting Treat v2.png')} style={{width:'100%', height:'100%'}} />
+        <p >Preventative Reminder Rewarding Compliance</p>
         </div>
       </div>
     );
