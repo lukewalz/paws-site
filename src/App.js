@@ -9,45 +9,39 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <div className="container-fluid">
-          <nav className="navbar navbar-expand-lg navbar-light justify-content-between">
+        <div className="sticky-top" style={{ backgroundColor: 'white' }}>
+          <nav className="navbar navbar-expand-lg navbar-light justify-content-between justify-content-start">
             <img
               alt="logo"
-              src={require("./logo.png")}
-              className="navbar-brand image navbar-right"
+              src={require("./assets/Get_your_paws_on_it.png")}
+              className="navbar-brand image navbar-left"
             />
-<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span className="navbar-toggler-icon"></span>
-  </button>
-<div className="collapse navbar-collapse" id="navbarSupportedContent">
-   
-            <ul className="navbar-nav mr-auto" >
-              <li>
-                <Link to={"/"} className="nav-link">
-                  {" "}
-                  App{" "}
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul className="navbar-nav ml-auto" >
+                <li>
+                  <Link to={"/"} className="nav-link">
+                    {" "}
+                    FAQ{" "}
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/"} className="nav-link">
+                    Sign In
                 </Link>
-              </li>
-              <li>
-                <Link to={"/about"} className="nav-link">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link to={"/contact"} className="nav-link">
-                  Contact
-                </Link>
-              </li>
-            </ul>
-</div>
+                </li>
+              </ul>
+            </div>
           </nav>
-          <hr />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-          </Switch>
         </div>
+
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
       </Router>
     );
   }
