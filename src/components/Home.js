@@ -56,10 +56,10 @@ class Home extends Component {
 
         </div>
         <div className='row overlayRow' style={{ backgroundColor: 'gray', justifyContent: 'center', display: 'flex' }}>
-          <img className='lazyload col-lg-6 col-md-12 col-sm-12' style={{
+          <img className='lazyload col-lg-6 col-md-6 col-sm-12' style={{
             maxHeight: '380px'
           }} alt='phone screenshots' data-src={require('../assets/Phone_Screenshots.png')} />
-          <div className='col-lg-6 col-md-12 col-sm-12'>
+          <div className='col-lg-6 col-md-6 col-sm-12'>
             <p className='subtitleText' >Healthy Habits are Rewarding...
               and Contagious</p>
             <p className='text' >The closer you give preventatives to when
