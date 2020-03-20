@@ -35,13 +35,6 @@ p {
   font-size: 2em;
 }
 
-.hero-image {
-  max-width: 100%;
-  opacity: .2;
-  position: absolute;
-  max-width: 1140px;
-}
-
 .titleText {
   color:white;
   font-weight: 400;

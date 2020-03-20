@@ -12,8 +12,8 @@ class Home extends Component {
   render() {
     return (
       <div style={{ height: 1000 }} className='container-fluid'>
-        <div className='containerRow' style={{ backgroundImage: 'url(' + imgUrl + ')', display: 'flex', alignItems: 'center', paddingLeft: 200 }}>
-          <div>
+        <div className='row' style={{ backgroundImage: 'url(' + imgUrl + ')', height: '700px', display: 'flex', alignItems: 'center', paddingLeft: 200, marginTop: 0 }}>
+          <div className='col-lg-4 col-md-12 col-sm-12'>
             <div>
               <p className='titleText'>Preventative Reminder, <br></br>Rewarding Compliance.</p>
             </div>
