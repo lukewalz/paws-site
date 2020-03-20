@@ -13,7 +13,7 @@ class App extends Component {
           <nav className="navbar navbar-expand-lg navbar-light justify-content-between justify-content-start">
             <img
               alt="logo"
-              src={require("./assets/Get_your_paws_on_it.png")}
+              src={require("./assets/Get_your_paws_on_it-min.png")}
               className="navbar-brand image navbar-left"
             />
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
