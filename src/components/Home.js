@@ -12,14 +12,14 @@ class Home extends Component {
   render() {
     return (
       <div style={{ height: 1000 }} className='container-fluid'>
-        <div className='row' style={{ backgroundImage: 'url(' + imgUrl + ')', height: '700px', display: 'flex', alignItems: 'center', paddingLeft: 200, marginTop: 0 }}>
+        <div className='row' style={{ backgroundImage: 'url(' + imgUrl + ')', width: '100%', maxHeight: '700px', height: '50em', display: 'flex', alignItems: 'center', marginTop: 0 }}>
           <div className='col-lg-4 col-md-12 col-sm-12'>
             <div>
               <p className='titleText'>Preventative Reminder, <br></br>Rewarding Compliance.</p>
             </div>
             <div>
               <p className='text'>A foolproof reminder for giving your pet's<br></br>preventatives on time and never forget again. </p>
-              <button type="button" disabled className="btn btn-danger">BETA COMING SOON<FaApple /><FaAndroid /></button>
+              {/*  <button type="button" disabled className="btn btn-danger">BETA COMING SOON<FaApple /><FaAndroid /></button> */}
             </div>
 
           </div>
@@ -125,7 +125,7 @@ class Home extends Component {
               maxHeight: '25px'
             }} data-src={require('../assets/Red_Check.png')} />Inventory management</p>
 
-            <button type="button" className="btn btn-danger">DOWNLOAD<FaApple /><FaAndroid /></button>
+            {/* <button type="button" className="btn btn-danger">DOWNLOAD<FaApple /><FaAndroid /></button> */}
           </div>
           <div className='col-lg-7 col-md-7 col-sm-12'>
             <img alt='Cat asleep in bed' className='lazyload' style={{
@@ -148,7 +148,7 @@ class Home extends Component {
               hen</p>
             <p className='subtitleText' style={{ color: 'black', textAlign: 'center' }}><font color="red">s</font>
               cheduled</p>
-            <button type="button" disabled className="btn btn-danger">BETA COMING SOON<FaApple /><FaAndroid /></button>
+            {/*<button type="button" disabled className="btn btn-danger">BETA COMING SOON<FaApple /><FaAndroid /></button> */}
           </div>
         </div>
       </div>
