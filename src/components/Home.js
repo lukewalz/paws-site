@@ -18,7 +18,7 @@ class Home extends Component {
         }}>
           <div className='col-lg-4 col-md-12 col-sm-12'>
             <div>
-              <p className='titleText'>Preventative Reminder, <br></br>Rewarding Compliance.</p>
+              <h1 className='titleText'>Preventative Reminder, <br></br>Rewarding Compliance.</h1>
             </div>
             <div>
               <p className='text'>A foolproof reminder for giving your pet's<br></br>preventatives on time and never forget again. </p>
