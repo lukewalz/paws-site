@@ -12,7 +12,10 @@ class Home extends Component {
   render() {
     return (
       <div style={{ height: 1000 }} className='container-fluid'>
-        <div className='row' style={{ backgroundImage: 'url(' + imgUrl + ')', width: '100%', maxHeight: '700px', height: '50em', display: 'flex', alignItems: 'center', marginTop: 0 }}>
+        <div className='row' style={{
+          backgroundImage: 'url(' + imgUrl + ')', width: '100%', backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover', minHeight: '700px', display: 'flex', alignItems: 'center', marginTop: 0
+        }}>
           <div className='col-lg-4 col-md-12 col-sm-12'>
             <div>
               <p className='titleText'>Preventative Reminder, <br></br>Rewarding Compliance.</p>

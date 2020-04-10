@@ -96,7 +96,7 @@ p {
 @media(max-width:600px){
   .overlayRow{
     max-height: 900px;
-    margin: 70px;
+    margin: 0;
     height: 900px
   }
 }
