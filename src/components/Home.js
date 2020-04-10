@@ -14,7 +14,7 @@ class Home extends Component {
       <div style={{ height: 1000 }} className='container-fluid'>
         <div className='row' style={{
           backgroundImage: 'url(' + imgUrl + ')', width: '100%', backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover', minHeight: '700px', display: 'flex', alignItems: 'center', marginTop: 0
+          backgroundSize: 'auto', minHeight: '700px', display: 'flex', alignItems: 'center', marginTop: 0, marginRight: 0, marginLeft: 0, padding: 0
         }}>
           <div className='col-lg-4 col-md-12 col-sm-12'>
             <div>
