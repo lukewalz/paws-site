@@ -19,7 +19,7 @@ class Home extends Component {
             </div>
             <div>
               <p className='text'>A foolproof reminder for giving your pet's<br></br>preventatives on time and never forget again. </p>
-              <button type="button" className="btn btn-danger">DOWNLOAD<FaApple /><FaAndroid /></button>
+              <button type="button" disabled className="btn btn-danger">BETA COMING SOON<FaApple /><FaAndroid /></button>
             </div>
 
           </div>
@@ -148,7 +148,7 @@ class Home extends Component {
               hen</p>
             <p className='subtitleText' style={{ color: 'black', textAlign: 'center' }}><font color="red">s</font>
               cheduled</p>
-            <button type="button" className="btn btn-danger">DOWNLOAD<FaApple /><FaAndroid /></button>
+            <button type="button" disabled className="btn btn-danger">BETA COMING SOON<FaApple /><FaAndroid /></button>
           </div>
         </div>
       </div>

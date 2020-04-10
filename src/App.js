@@ -11,29 +11,29 @@ class App extends Component {
       <Router>
         <div className="sticky-top" style={{ backgroundColor: 'white' }}>
           <nav className="navbar navbar-expand-lg navbar-light justify-content-between justify-content-start">
-            <img
-              alt="logo"
-              src={require("./assets/Get_your_paws_on_it-min.png")}
-              className="navbar-brand image navbar-left"
-            />
+            <Link to={"/"} className="nav-link">
+
+              <img
+                alt="logo"
+                src={require("./assets/Get_your_paws_on_it-min.png")}
+                className="navbar-brand image navbar-left"
+              />
+            </Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
+
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ml-auto" >
                 <li>
-                  <Link to={"/"} className="nav-link">
+                  <Link to={"/Contact"} className="nav-link">
                     {" "}
-                    FAQ{" "}
+                    CONTACT US{" "}
                   </Link>
-                </li>
-                <li>
-                  <Link to={"/"} className="nav-link">
-                    Sign In
-                </Link>
                 </li>
               </ul>
             </div>
+
           </nav>
         </div>
 
