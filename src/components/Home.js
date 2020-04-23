@@ -13,8 +13,8 @@ class Home extends Component {
     return (
       <div style={{ height: 1000 }} className='container-fluid'>
         <div className='row' style={{
-          backgroundImage: 'url(' + imgUrl + ')', width: '100%', backgroundRepeat: 'no-repeat',
-          backgroundSize: 'auto', minHeight: '700px', display: 'flex', alignItems: 'center', marginTop: 0, marginRight: 0, marginLeft: 0, padding: 0
+          backgroundImage: 'url(' + imgUrl + ')', backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover', minHeight: '700px', display: 'flex', alignItems: 'center', marginTop: 0, marginRight: 0, marginLeft: 0, padding: 0
         }}>
           <div className='col-lg-4 col-md-12 col-sm-12'>
             <div>
@@ -59,9 +59,12 @@ class Home extends Component {
 
         </div>
         <div className='row overlayRow' style={{ backgroundColor: 'gray', justifyContent: 'center', display: 'flex' }}>
-          <img className='lazyload col-lg-6 col-md-6 col-sm-12' style={{
-            maxHeight: '380px'
-          }} alt='phone screenshots' data-src={require('../assets/Phone_Screenshots.png')} />
+          <div className='col-lg-6 col-md-6 col-sm-12'>
+            <img className='lazyload' style={{
+              maxHeight: '380px'
+            }} alt='phone screenshots' data-src={require('../assets/Phone_Screenshots.png')} />
+          </div>
+
           <div className='col-lg-6 col-md-6 col-sm-12'>
             <p className='subtitleText' >Healthy Habits are Rewarding...
               and Contagious</p>
@@ -98,41 +101,41 @@ class Home extends Component {
           </div>
           <div className='col-lg-4 col-md-4 col-sm-12' style={{ textAlign: 'center', flexDirection: 'row' }}>
 
-            <p className='text' style={{ color: 'black', textAlign: 'center' }}>            <img alt='red checkmark' className='lazyload' style={{
+            <p className='text' style={{ color: 'black', textAlign: 'center' }}>            <img alt='red checkmark' style={{
               maxHeight: '50px'
-            }} data-src={require('../assets/Red_Check_Gray_Circle.png')} />Paws ensures the correct preventative is being given to the correct pet.</p>
+            }} src={require('../assets/Red_Check_Gray_Circle.png')} />Paws ensures the correct preventative is being given to the correct pet.</p>
           </div>
           <div className='col-lg-4 col-md-4 col-sm-12' style={{ textAlign: 'center', flexDirection: 'row' }}>
 
-            <p className='text' style={{ color: 'black', textAlign: 'center' }}>            <img alt='red checkmark' className='lazyload' style={{
+            <p className='text' style={{ color: 'black', textAlign: 'center' }}>            <img alt='red checkmark' style={{
               maxHeight: '50px'
-            }} data-src={require('../assets/Red_Check_Gray_Circle.png')} />Keeps track of your inventory. Paws will alert you of expiration dates and when running low.</p>
+            }} src={require('../assets/Red_Check_Gray_Circle.png')} />Keeps track of your inventory. Paws will alert you of expiration dates and when running low.</p>
           </div>
           <div className='col-lg-4 col-md-4 col-sm-12' style={{ textAlign: 'center', flexDirection: 'row' }}>
 
-            <p className='text' style={{ color: 'black', textAlign: 'center' }}>            <img alt='red checkmark' className='lazyload' style={{
+            <p className='text' style={{ color: 'black', textAlign: 'center' }}>            <img alt='red checkmark' style={{
               maxHeight: '50px'
-            }} data-src={require('../assets/Red_Check_Gray_Circle.png')} />Paws clears any confusion over dosing (monthly? with food?) and which preventatives are for which parasites.</p>
+            }} src={require('../assets/Red_Check_Gray_Circle.png')} />Paws clears any confusion over dosing (monthly? with food?) and which preventatives are for which parasites.</p>
           </div>
         </div>
         <div className='row overlayRow' style={{ backgroundColor: 'maroon' }}>
           <div className='col-lg-5 col-md-5 col-sm-12'>
             <p className='subtitleText'>Rest easy. <br></br>Paws has you covered</p>
-            <p className='text'>            <img className='lazyload' alt='red checkmark' style={{
+            <p className='text'>            <img alt='red checkmark' style={{
               maxHeight: '25px'
-            }} data-src={require('../assets/Red_Check.png')} />Preventatives given on time</p>
-            <p className='text'><img alt='red checkmark' className='lazyload' style={{
+            }} src={require('../assets/Red_Check.png')} />Preventatives given on time</p>
+            <p className='text'><img alt='red checkmark' style={{
               maxHeight: '25px'
-            }} data-src={require('../assets/Red_Check.png')} />Dosing directions and history</p>
-            <p className='text'><img alt='red checkmark' className='lazyload' style={{
+            }} src={require('../assets/Red_Check.png')} />Dosing directions and history</p>
+            <p className='text'><img alt='red checkmark' style={{
               maxHeight: '25px'
-            }} data-src={require('../assets/Red_Check.png')} />Inventory management</p>
+            }} src={require('../assets/Red_Check.png')} />Inventory management</p>
 
             {/* <button type="button" className="btn btn-danger">DOWNLOAD<FaApple /><FaAndroid /></button> */}
           </div>
           <div className='col-lg-7 col-md-7 col-sm-12'>
             <img alt='Cat asleep in bed' className='lazyload' style={{
-              height: '100%', width: '100%', display: 'block', margin: '20px'
+              display: 'block', margin: '20px'
             }} data-src={require('../assets/Cat_sleep_bed.jpg')} />
           </div>
 

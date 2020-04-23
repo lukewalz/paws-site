@@ -50,11 +50,10 @@ p {
 .text {
   color:white;
   font-weight: 100;
-  font-size: 15px;
+  font-size: 1.7em;
 }
 
 .overlayRow{
-  max-height: 300px;
   margin: 20px
 }
 
@@ -93,10 +92,17 @@ p {
   padding-top: 90px
 }
 
+img.lazyloaded{
+  max-width:80%
+
+}
 @media(max-width:600px){
   .overlayRow{
     max-height: 900px;
     margin: 0;
-    height: 900px
+    height: 900px;
+  }
+  img.lazyloaded{
+    width:400px
   }
 }
