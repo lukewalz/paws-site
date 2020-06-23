@@ -54,7 +54,6 @@ class Home extends Component {
             preventative. This process forces interaction with your pet and their meds
             ensuring not only administration, but that the correct pet is getting the
                 correct preventative. Reminders can no longer be ignored!</p>
-            <button type="button" className="btn btn-outline-dark">Try Now</button>
           </div>
 
         </div>
@@ -73,7 +72,6 @@ class Home extends Component {
             See where you rank with your compliance and
             celebrate each month of your pet’s good health.
               Spread the good word and others will follow suit.</p>
-            <button type="button" className="btn btn-outline-light">Download</button>
           </div>
         </div>
         <div className='row'>
