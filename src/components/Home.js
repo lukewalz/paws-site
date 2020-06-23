@@ -1,9 +1,9 @@
 // Home.js
 
-import { MdAndroid } from "react-icons/md";
+// import { MdAndroid } from "react-icons/md";
 import { } from '../../src/'
 import React, { Component } from "react";
-import { FaApple, FaAndroid } from 'react-icons/fa';
+// import { FaApple, FaAndroid } from 'react-icons/fa';
 import 'lazysizes';
 
 var imgUrl = require('../assets/Dog_getting_Treat_v2.png')
